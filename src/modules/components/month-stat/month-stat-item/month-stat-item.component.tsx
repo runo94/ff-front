@@ -19,7 +19,7 @@ export const MonthStatItem: FC<IMonthStatProps> = ({...item}) => {
     return (
         <div
             key={item.id}
-            className="relative overflow-hidden rounded-lg bg-white px-4 pb-12 pt-5 shadow sm:px-6 sm:pt-6"
+            className="relative overflow-hidden rounded-lg bg-white px-4 shadow sm:px-6 sm:pt-6"
         >
             <dt>
                 {/* <div className="absolute rounded-md bg-indigo-500 p-3">
@@ -44,13 +44,6 @@ export const MonthStatItem: FC<IMonthStatProps> = ({...item}) => {
                     <span className="sr-only"> {item.changeType === 'increase' ? 'Increased' : 'Decreased'} by </span>
                     {item.change}
                 </p>
-                <div className="absolute inset-x-0 bottom-0 bg-gray-50 px-4 py-4 sm:px-6">
-                    <div className="text-sm">
-                        <a href="#" className="font-medium text-indigo-600 hover:text-indigo-500">
-                            View all<span className="sr-only"> {item.name} stats</span>
-                        </a>
-                    </div>
-                </div>
             </dd>
         </div>
     )

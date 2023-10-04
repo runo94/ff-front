@@ -15,7 +15,7 @@ function classNames(...classes: string[]) {
 
 export const TeamsItem: FC<ITeamsProps> = ({ ...item }) => {
     return (
-        <li key={item.name} className="col-span-1 flex rounded-md shadow-sm">
+        <li className="col-span-1 flex rounded-md shadow-sm">
             <div
                 className={classNames(
                     item.bgColor,
