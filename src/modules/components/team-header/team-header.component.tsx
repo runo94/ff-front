@@ -1,4 +1,4 @@
-import { Avatar } from "@app/modules/components/avatar/avatar.component"
+import { Avatar } from "@app/common/components/avatar/avatar.component"
 
 const profile = {
     name: 'Football Fun',

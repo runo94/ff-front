@@ -1,5 +1,5 @@
 import { TeamsList } from "@app/modules/components/teams-list/teams-list/teams-list.component"
-import { Avatar } from "@app/modules/components/avatar/avatar.component"
+import { Avatar } from "@app/common/components/avatar/avatar.component"
 
 const profile = {
   name: 'Ricardo Cooper',
