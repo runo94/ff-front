@@ -19,7 +19,7 @@ export const MonthStatItem: FC<IMonthStatProps> = ({...item}) => {
     return (
         <div
             key={item.id}
-            className="relative overflow-hidden rounded-lg bg-white px-4 shadow sm:px-6 sm:pt-6"
+            className="relative overflow-hidden rounded-lg bg-white px-4 shadow sm:px-6 sm:pt-6 divide-y divide-gray-100   ring-1 ring-gray-900/5 sm:rounded-xl"
         >
             <dt>
                 {/* <div className="absolute rounded-md bg-indigo-500 p-3">

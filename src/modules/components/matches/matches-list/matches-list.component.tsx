@@ -69,7 +69,7 @@ const matchList = [
 
 export const MatchesList = () => {
     return (
-        <ul role="list" className="space-y-3 grid grid-cols-1 gap-5 sm:grid-cols-1 lg:grid-cols-2">
+        <ul role="list" className="grid grid-cols-1 gap-5 sm:grid-cols-1 lg:grid-cols-2">
             {matchList.map((item) => (
                 <MatchesItem {...item} />
             ))}
